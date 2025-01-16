@@ -9,6 +9,8 @@ This template provides a starting point for creating an Identity Provider (IDP) 
 - Provides endpoints for managing OAuth2 tokens (e.g., /connect/token, /connect/authorize).
 - Integrated with .NET Core's security and authentication features.
 - Utilizes Clean Architecture.
+- **PostgreSQL**: Uses PostgreSQL as the database for this example.
+
 
 ## Versions
 
