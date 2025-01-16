@@ -1,25 +1,24 @@
-# Template per Identity Provider con OAuth2 utilizzando OpenIddict
+# Identity Provider Template with OAuth2 using OpenIddict
 
-Questo template fornisce un punto di partenza per la creazione di un Identity Provider (IDP) basato su OAuth2 utilizzando OpenIddict in un progetto .NET Core. L'IDP può essere utilizzato per gestire l'autenticazione e l'autorizzazione degli utenti, fornendo token OAuth2 per l'accesso sicuro alle risorse protette.
+This template provides a starting point for creating an Identity Provider (IDP) based on OAuth2 using OpenIddict in a .NET Core project. The IDP can be used to manage user authentication and authorization, providing OAuth2 tokens for secure access to protected resources.
 
-## Caratteristiche
+## Features
 
-- Implementazione di un Identity Provider basato su OAuth2 utilizzando OpenIddict.
-- Configurazione predefinita per gestire l'autenticazione e l'autorizzazione degli utenti.
-- Fornisce endpoint per la gestione dei token OAuth2 (ad es. /connect/token, /connect/authorize).
-- Integrato con le funzionalità di sicurezza e autenticazione di .NET Core.
-- Utilizzo della Clean Architeture
+- Implementation of an Identity Provider based on OAuth2 using OpenIddict.
+- Default configuration for managing user authentication and authorization.
+- Provides endpoints for managing OAuth2 tokens (e.g., /connect/token, /connect/authorize).
+- Integrated with .NET Core's security and authentication features.
+- Utilizes Clean Architecture.
 
-## Versioni
+## Versions
 
 - .NET 8
-- OpenIddict 5.3.0.
+- OpenIddict 5.3.0
 
-## Istruzioni per l'uso
+## Instructions for Use
 
-1. Clona il repository.
-2. Configura il template con le impostazioni desiderate per l'autenticazione, l'autorizzazione e la gestione degli utenti.
-3. Esegui il progetto e accedi agli endpoint per la gestione dell'autenticazione e dei token OAuth2.
+1. Clone the repository.
+2. Configure the template with the desired settings for authentication, authorization, and user management.
+3. Run the project and access the endpoints for managing authentication and OAuth2 tokens.
 
 .
-
